@@ -1,42 +1,113 @@
-/* CSS Document */
-
-body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
-li, dl, dt, dd, form, a, fieldset, input, th, td
-{margin: 0; padding: 0; border: 0; outline: none;}
-body { background:#999; font-family: "宋体";font-size: 12px;color:#000000;line-height: 20px;text-align:left;}
-td,th {font-family: "华文行楷";font-size: 24px;color: #000000; line-height:25px;}
-a {color: #fff;} 
-A:link {TEXT-DECORATION: none;}
-A:visited {TEXT-DECORATION: none;}
-A:hover {TEXT-DECORATION: underline;color: #ffffff;}
-ul,li{list-style-type:none;}
-.clearit{clear:both;}
-.zong{ width:800px; margin:0 auto;}
+body, html, div, blockquote, img, label, p, h1,
+h2, h3, h4, h5, h6, pre, ul, ol,li, dl, dt, dd, 
+form, a, fieldset, input, th, td{
+	margin: 0;
+	adding: 0; 
+	border: 0; 
+	outline: none;
+}
+body { 
+	background:#999; 
+	font-family: "宋体";
+	font-size: 12px;
+	color:#000000;
+	line-height: 20px;
+	text-align:left;
+}
+td,th {
+	font-family: "华文行楷";
+	font-size: 24px;
+	color: #000000; 
+	line-height:25px;
+}
+a {
+	color: #fff;
+} 
+A:link {
+	text-decoration: underline;
+}
+A:visited {
+	text-decoration: underline;
+}
+A:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+ul,li{
+	list-style-type:none;
+}
+.clearit{
+	clear:both;
+}
+.zong{ 
+	width:800px; 
+	margin:0 auto;
+}
 
  
-.nav{ background: #999;}
-.nav td{font-family: "华文行楷";
+.nav{ 
+	background: #999;
+}
+.nav td{
+	font-family: "华文行楷";
 	font-size: xx-large;
 	font-weight: bolder; 
 	color: #00F;
-	position: relative;}
-.nav td:hover{  display:block;background:#CCc; color: #033;  height:50px; text-align:center; line-height:50px;}
-.hover{ display:block;background:#CCc; color: #033; height:50px; text-align:center; line-height:50px;}
+	position: relative;
+}
+.nav td:hover{ 
+	display:block;
+	background:#CCc; 
+	color: #033;  
+	height:50px; 
+	text-align:center; 
+	line-height:50px;
+}
+.hover{ 
+	display:block;
+	background:#CCc; 
+	color: #033; 
+	height:50px; 
+	text-align:center; 
+	line-height:50px;
+}
 
-.left_nav{ background: #E7E7E7; margin-top:50px; }
-.left_nav td{font-family: "幼圆";
+.left_nav{ 
+	background: #E7E7E7; 
+	margin-top:50px; 
+}
+.left_nav td{
+	font-family: "幼圆";
 	font-size: 24px;
 	font-weight: bold;
 	color: #309;
 	text-decoration: underline;
-	position: relative; height:50px; text-align:center; line-height:50px; border-bottom:1px solid #999; }
-.left_nav td:hover{ background:#C6C6C6}
-.td_bg{ background:#C6C6C6}
-.left_nav td a{ color: #033}
+	position: relative; 
+	height:50px; 
+	text-align:center; 
+	line-height:50px; 
+	border-bottom:1px solid #999; 
+}
+.left_nav td:hover{ 
+	background:#C6C6C6
+}
+.td_bg{ 
+	background:#C6C6C6
+}
+.left_nav td a{ 
+	color: #033
+}
 
-.wenzi p{ text-align:left; padding:10px;}
+.wenzi p{ 
+	text-align:left; 
+	padding:10px;
+}
 
-.foot{ border-top:1px solid #666; text-align:center; margin-top:30px;}
+.foot{ 
+	border-top:1px solid #666; 
+	text-align:center; 
+	margin-top:30px;
+}
 
 .fleft{
 	text-align: center;
